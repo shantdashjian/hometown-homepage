@@ -33,6 +33,7 @@ img {
     background-color: #87DCED;
     color: #593316;
 }
+
 #three-activities {
     display: flex;
     justify-content: space-around;
@@ -46,4 +47,26 @@ img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.guide {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #9db4c0;
+    color: #253237;
+    border-bottom: 6px solid #5c6b73;
+    border-radius: 10px;
+}
+
+.quote {
+    font-style: italic;
+    margin: 10px;
 }
