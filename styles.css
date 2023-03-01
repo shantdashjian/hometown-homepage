@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     text-align: center;
@@ -8,11 +12,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 343px;
     background-image: url("images/gyumri.jpeg");
     background-size: cover;
     color: #87DCED;
-    padding-top: 121px;
+    padding: 121px 10px 10px 10px;
 }
 
 #hero-header, #hero-text {
@@ -32,6 +35,7 @@ body {
 #three-activities {
     display: flex;
     justify-content: space-around;
+    gap: 1em;
 }
 
 .activity {
